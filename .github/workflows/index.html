@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Appointment Booker</title>
+    <style>
+        body { font-family: Arial; max-width: 500px; margin: 0 auto; padding: 20px; }
+        input, button { padding: 8px; margin: 5px 0; width: 100%; }
+        #confirmation { margin-top: 20px; padding: 10px; background: #f0f0f0; }
+    </style>
+</head>
+<body>
+    <h1>Book an Appointment</h1>
+    <form id="booking-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="datetime-local" id="datetime" required>
+        <button type="submit">Book Now</button>
+    </form>
+    <div id="confirmation"></div>
+    <script src="script.js"></script>
+</body>
+</html>
